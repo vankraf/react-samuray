@@ -1,0 +1,36 @@
+.item {
+    color: #ffffff;
+
+    margin-top: 30px;
+
+    width: 50%;
+    display:grid;
+    grid-template-areas: "a c" "e l" ;
+    grid-template-columns: 90px 7fr;
+
+}
+
+.item img {
+    grid-area: a;
+    width: 70px;
+    height: 70px;
+    margin:auto;
+
+}
+
+.content {
+    background-color: rgba(7, 158, 167, 0.55);
+    grid-area: c;
+    padding:  0 10px 0 10px;
+
+}
+
+.likes {
+    color: #308176;
+    margin-left:auto;
+    margin-right:0;
+    margin-top: 5px;
+    grid-area: l;
+}
+
+

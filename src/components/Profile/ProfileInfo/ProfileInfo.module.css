@@ -1,0 +1,23 @@
+.profile {
+
+    display:grid;
+    grid-template-areas: "a e"
+                         "d e"
+                         "t t"
+                         "b b";
+    grid-template-columns: 1fr 1fr;
+}
+
+.profile img {
+    grid-area: a;
+    width:100%;
+    border-radius:50%;
+    margin:auto;
+}
+
+.profile h1 {
+    grid-area: d;
+    text-align: center;
+    color:#308176;
+}
+

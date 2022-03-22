@@ -1,0 +1,22 @@
+
+.addPost textarea {
+    width: 50%;
+    background-color: rgba(22, 155, 168, 0.24);
+    border: none;
+    resize: none;
+    height:70px;
+    margin-bottom: 7px;
+}
+
+.addPost button {
+    width:90px;
+    height:30px;
+    background-color: #308176;
+    border: none;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.addPost button:hover {
+    background-color: rgba(7, 158, 167, 0.55);
+}

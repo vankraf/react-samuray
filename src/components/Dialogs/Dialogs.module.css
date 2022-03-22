@@ -1,0 +1,26 @@
+.dialogs {
+    display: grid;
+    grid-template-areas: "p p" "n m";
+    grid-template-columns: 2fr 5fr;
+    grid-template-rows: 70px 1000px;
+    margin: 0;
+    padding: 0;
+}
+
+.description {
+    grid-area:p;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #308176;
+    border-bottom:2px solid #308176;
+    text-align: center;
+}
+
+.dialogsItems {
+    padding:0;
+
+    grid-area: n;
+    border-right:2px solid #308176;
+}
+
